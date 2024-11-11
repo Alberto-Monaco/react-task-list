@@ -79,7 +79,7 @@ export default function AppMain() {
 	const completedTasks = tasks.filter((task) => task.state === 'completed')
 	return (
 		<main>
-			<p>Current Tasks</p>
+			<p>Current Tasks ({currentTasks.length})</p>
 			<ul>
 				{currentTasks.map((task) => (
 					<li key={task.id}>
@@ -92,7 +92,7 @@ export default function AppMain() {
 				))}
 			</ul>
 			<hr />
-			<p>Completed Tasks</p>
+			<p>Completed Tasks ({completedTasks.length})</p>
 
 			<ul>
 				{completedTasks.map((task) => (
