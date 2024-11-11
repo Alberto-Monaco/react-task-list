@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #7FFFD3;
+    padding: 1rem;
+}
+
+main>p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+
+ul {
+
+    list-style: none;
+
+    p {
+        padding: 0.2rem 1rem;
+    }
+
+    li {
+        padding: 0.5rem 0;
+    }
+}
+
+.task-title,
+.task-state {
+    font-weight: bold;
+}
+
+.task-state {
+    background-color: #D2691E;
+    color: white;
+    padding: 0.3rem 0.5rem;
+
+}
