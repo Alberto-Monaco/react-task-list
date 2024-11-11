@@ -1,5 +1,5 @@
 export default function AppHeader() {
-	const appName = 'JSX Task List'
+	const appName = 'Task Manager'
 	return (
 		<header>
 			<h1>{appName}</h1>
