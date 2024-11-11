@@ -84,7 +84,8 @@ export default function AppMain() {
 				{currentTasks.map((task) => (
 					<li key={task.id}>
 						<p>
-							<span className='task-title'>{task.title}</span> <span className='task-state'>{task.state}</span>
+							<span className='task-title'>{task.title}</span>
+							<span className='task-state'>{task.state}</span>
 						</p>
 						<p>Priority: {task.priority}</p>
 						<p>Est. Time: {task.estimatedTime}</p>
@@ -98,7 +99,8 @@ export default function AppMain() {
 				{completedTasks.map((task) => (
 					<li key={task.id}>
 						<p>
-							<span className='task-title'>{task.title}</span> <span className='task-state'>{task.state}</span>
+							<span className='task-title'>{task.title}</span>
+							<span className='task-state'>{task.state}</span>
 						</p>
 						<p>Priority: {task.priority}</p>
 						<p>Est. Time: {task.estimatedTime}</p>
